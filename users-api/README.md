@@ -16,3 +16,6 @@ The service scans environment for variables:
 ./mvnw clean install
 JWT_SECRET=foo SERVER_PORT=8083 java -jar target/users-api-0.0.1-SNAPSHOT.jar
 ```
+
+
+curl http://localhost:8080
